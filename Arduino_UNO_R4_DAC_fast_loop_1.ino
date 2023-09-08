@@ -15,6 +15,10 @@
     GNU General Public License for more details.
 */
 
+// RA4M1 User’s Manual: Hardware
+// This doc has all the register discriptions I use:
+// https://www.renesas.com/us/en/document/mah/renesas-ra4m1-group-users-manual-hardware
+
 // ARM-developer - Accessing memory-mapped peripherals
 // https://developer.arm.com/documentation/102618/0100
 
