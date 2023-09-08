@@ -15,6 +15,10 @@
     GNU General Public License for more details.
 */
 
+// RA4M1 User’s Manual: Hardware
+// This doc has all the register discriptions I use:
+// https://www.renesas.com/us/en/document/mah/renesas-ra4m1-group-users-manual-hardware
+
 // With thanks to @KurtE for the pointers how to get this code to use the RA4M1 Floating Point Unit
 // Using the FPU for sinf() gives 6.5uS in the loop(); instead of 290uS software code exercution time
 
