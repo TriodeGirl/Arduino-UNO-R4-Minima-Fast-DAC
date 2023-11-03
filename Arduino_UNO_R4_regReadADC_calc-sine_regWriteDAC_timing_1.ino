@@ -242,8 +242,13 @@ void loop()
 #endif
 
 #else
+	  
+#ifdef ADC_RIGHT_JUST
   analog_read_value = analog_read_value >> 2;  // 
   analog_write_value = (~analog_read_value & 0x0FFF);  // do this outside the DAC timed window
+#else
+  analog_write_value = (~analog_read_value);  // do this outside the DAC timed window
+#endif
 
   if(tick_tock == true)
     {
